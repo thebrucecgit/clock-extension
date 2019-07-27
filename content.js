@@ -1,5 +1,5 @@
-let sec = document.querySelector("#component33181")
+const sec = document.querySelector(".small-12.large-4.columns");
 const iframe = document.createElement("iframe");
-iframe.src="https://cc-clock.herokuapp.com";
+iframe.src="https://clock.thebrucecweb.com";
 // iframe.setAttribute("sandbox", "allow-scripts");
-if(sec) sec.insertBefore(iframe, sec.childNodes[0]);
+if(sec && window.location.pathname === "/") sec.insertBefore(iframe, sec.childNodes[0]);

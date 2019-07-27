@@ -1,14 +1,14 @@
 {
   "manifest_version": 2,
   "name": "College Clock Extension",
-  "version": "0.2",
+  "version": "0.3",
   "permissions": [
     "activeTab"
   ],
   "content_scripts": [
     {
       "matches": [
-        "https://schoolbox.christscollege.com/"
+        "https://schoolbox.christscollege.com/*"
       ],
       "run_at": "document_end",
       "js": ["content.js"]
