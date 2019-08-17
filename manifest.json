@@ -1,10 +1,13 @@
 {
   "manifest_version": 2,
   "name": "College Clock Extension",
-  "version": "0.4",
+  "version": "0.6",
   "permissions": [
     "activeTab"
   ],
+  "icons": {
+    "128": "clock.png"
+  },
   "content_scripts": [
     {
       "matches": [
